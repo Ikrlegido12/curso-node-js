@@ -1,3 +1,3 @@
-console.log("Hola, mundo! 👏")
-console.info("Hola, mundo! 👏")
-console.error("Hola, mundo! 👏")
+const os = require('node:os')
+
+console.log("Tu sistema operativo es:" + os.platform())
